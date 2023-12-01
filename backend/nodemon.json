@@ -1,8 +1,0 @@
-{
-    "env": {
-        "PORT": "3001",
-        "BASE_URL": "http://18.222.127.231",
-        "MONGO_DB_PASSWORD": "admin",
-        "JWT_KEY": "JWT_SECRET_KEY"
-    }
-}
