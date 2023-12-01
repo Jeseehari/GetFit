@@ -1,0 +1,46 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .dateInput {
+    margin-bottom: 20px;
+  }
+  
+  .list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .item {
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
+  .date {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .title {
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  .city {
+    margin-top: 5px;
+  }
+  
+  .time {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+  

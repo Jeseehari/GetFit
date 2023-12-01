@@ -1,0 +1,42 @@
+.label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .select {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    appearance: none;
+  }
+  
+  .button {
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .button:active {
+    background-color: #005cbf;
+    border-color: #005cbf;
+  }
+  

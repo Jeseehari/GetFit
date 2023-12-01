@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 25px;
+    margin-right: 25px;
+
+  }
+  
+  .graph {
+    /* width: 80%; */
+    max-width: fit-content;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    margin: auto;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 16px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  @media (max-width: 480px) {
+    .graph {
+      width: 100%;
+      padding: 8px;
+    }
+  }
+  
